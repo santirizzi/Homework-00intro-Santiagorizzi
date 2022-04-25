@@ -1,0 +1,15 @@
+'use strict'
+
+function BinarioADecimal(num) {
+  // tu codigo aca
+  return Number.parseInt(num, 2)
+}
+function DecimalABinario(num) {
+  // tu codigo aca
+const result = num.toString(2);
+return result
+}
+module.exports = {
+  BinarioADecimal,
+  DecimalABinario,
+}
